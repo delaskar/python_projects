@@ -55,6 +55,8 @@ def recieve_message_from_client(client_socket):
 
 def connect_client():
     """ Connect an incoming client to the server """
+    
+    print("Server is listening for incoming connections...\n")
 
     while True:
         # Accept any incoming client connection
@@ -83,5 +85,4 @@ def connect_client():
 
 if __name__ == "__main__":
     # Start the server
-    print("Server is listening for incoming connections...\n")
     connect_client()
