@@ -1,4 +1,4 @@
-# **Python Porjects Files**
+# **Python Projects Files**
 This repository contains the following projects:
 
 1. ***GUI Chat Room:*** A GUI-based chat room application built using Python's socket module and tkinter GUI toolkit.
