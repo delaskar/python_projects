@@ -16,7 +16,6 @@ def crossing_capstone_game():
     car_manager = CarManager()
     scoreboard = Scoreboard()
 
-
     screen.listen()
     screen.onkey(player.move_up, "Up")
 
@@ -45,4 +44,3 @@ def crossing_capstone_game():
 
 if __name__ == "__main__":
     crossing_capstone_game()
-    
